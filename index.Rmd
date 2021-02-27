@@ -1,21 +1,51 @@
 ---
-title: <center> <h1> Xiangning Xue </h1> </center>
+title: <center> <h1> <font size="8">Xiangning Xue </font>  </h1> </center>
 ---
 
-<!-- <style> -->
-<!-- .column-left{ -->
-<!--   float: left; -->
-<!--   width: 45%; -->
-<!--   text-align: center; -->
-<!-- } -->
-<!-- .column-right{ -->
-<!--   float: right; -->
-<!--   width: 52%; -->
-<!--   text-align: justify; -->
-<!-- } -->
-<!-- </style> -->
+<br>
 
-<center>![](MyPic.png){width=300px}</center>
+<center>![](MyPic.png){width=450px}</center>
 
-Hi, I am Xiangning Xue. I am currently a second-year Ph.D. student from the Biostatistics department at the University of Pittsburgh. 
+<font size="4">
+ 
+<br>
 
+Hi, I am Xiangning Xue. I am currently a second-year Ph.D. student from the Biostatistics department at the University of Pittsburgh. My research adviser is George Tseng. My research interest is in statistical genomics. 
+
+<br>
+
+ 
+
+# Education 
+
+  * PhD in Biostatistics, University of Pittsburgh (2019-2023)   
+  * Master of Public Health in Biostatistics, Emory University (2017-2019)  
+  * Bachelor of Science in Marine Biology, Xiamen University (2012-2016)  
+
+# Research 
+
+  * Circadian Models for Human Brain RNA-seq data
+  * Semi-Supervised Clustering for Count Data 
+  
+# Collaboration 
+
+  * Circadian analysis of multiple brain regions and comparing different cohorts 
+  * Evaluation of molecular mechanisms of treatment response in late-life depression 
+  * Meta-analysis combining first-episode psychosis studies and central insulin studies to reveal mechanisms in psychosis-related metabolic abnormalities
+  * Comparison of cell subtyping methods for Cytometry data
+  * Cytokine correlation analysis in human major depression disorder and mouse depression models 
+  * Transcriptional alternation analysis of subjects with opioid use disorder 
+  * Differential methylation analysis of HeLa cells under different stress conditions 
+  
+# Publications 
+
+  * Ryan W. Logan, **Xiangning Xue**, Kyle D. Ketchesin, Gabriel Hoffman, Panos Roussos, George Tseng, Colleen A. McClung, and Marianne L Seney. (2021) Sex differences in molecular rhythms in the human cortex. 
+  * Despoina Aslanoglou, Suzanne Bertera, Marta Sánchez-Soto, R. Benjamin Free, Jeongkyung Lee, Wei Zong, **Xiangning Xue**, Shristi Shrestha, Marcela Brissova, Ryan W. Logan, Claes B. Wollheim, Massimo Trucco, Vijay K. Yechoor, David R. Sibley, Rita Bottino and Zachary Freyberg. (2021) Dopamine regulates pancreatic glucagon and insulin secretion via adrenergic and dopaminergic receptors. Translational Psychiatry. accepted.
+  * Ryan W. Logan, Angela R. Ozburn, Rachel N. Arey, Kyle D. Ketchesin, Alicia Winquist, Andrew Crain, Brian T. D. Tobe, Darius Becker-Krail, Matthew B. Jarpe, **Xiangning Xue**, Wei Zong, Zhiguang Huo, Puja K. Parekh, Xiyu Zhu, Ethan Fitzgerald, Hui Zhang, Jeffrey Oliver-Smith, Lauren M. DePoy, Mariah Hildebrand, Evan Y. Snyder, George C. Tseng, and Colleen A. McClung. (2020) Valproate reverses mania-like behaviors in mice via preferential targeting of HDAC2. Molecular Psychiatry. accepted. 
+  * Peng Liu, Silvia Liu, Yusi Fang, **Xiangning Xue**, Jian Zou, George Tseng, Liza Konnikova. (2020) Recent Advances in Computer-assisted Algorithms for Cell Subtype Identification of Cytometry Data. Frontiers in Cell and Developmental Biology. 8:234.
+  
+  
+  
+</font>
+
+ 
