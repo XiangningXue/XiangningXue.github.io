@@ -11,4 +11,4 @@ navbar:
       href: http://github.com/<XiangningXue>/
 output:
   html_document:
-    css: bootstrap.min.css
+    theme: lumen

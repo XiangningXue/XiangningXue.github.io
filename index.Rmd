@@ -1,17 +1,21 @@
 ---
-title: "Xiangning Xue's Site"
-output: 
-  html_document:
-    toc: true
-    toc_float: true
+title: <center> <h1> Xiangning Xue </h1> </center>
 ---
 
-# Hello 
+<!-- <style> -->
+<!-- .column-left{ -->
+<!--   float: left; -->
+<!--   width: 45%; -->
+<!--   text-align: center; -->
+<!-- } -->
+<!-- .column-right{ -->
+<!--   float: right; -->
+<!--   width: 52%; -->
+<!--   text-align: justify; -->
+<!-- } -->
+<!-- </style> -->
 
-hello
+<center>![](MyPic.png){width=300px}</center>
 
-# Goodbye
-
-goodbye 
-
+Hi, I am Xiangning Xue. I am currently a second-year Ph.D. student from the Biostatistics department at the University of Pittsburgh. 
 
