@@ -10,7 +10,7 @@ title: <center> <h1> <font size="8">Xiangning Xue </font>  </h1> </center>
  
 <br>
 
-Hi, I am Xiangning Xue. I am currently a second-year Ph.D. student from the Biostatistics department at the University of Pittsburgh. My research adviser is George Tseng. My research interest is in statistical genomics. 
+Hi, I am Xiangning Xue. I am currently a third-year Ph.D. student from the Biostatistics department at the University of Pittsburgh. My research adviser is George Tseng. My research interest is in statistical genomics. 
 
 <br>
 
@@ -39,9 +39,11 @@ Hi, I am Xiangning Xue. I am currently a second-year Ph.D. student from the Bios
   
 # Publications 
 
-  * Ryan W. Logan, **Xiangning Xue**, Kyle D. Ketchesin, Gabriel Hoffman, Panos Roussos, George Tseng, Colleen A. McClung, and Marianne L Seney. (2021) Sex differences in molecular rhythms in the human cortex. 
-  * Despoina Aslanoglou, Suzanne Bertera, Marta Sánchez-Soto, R. Benjamin Free, Jeongkyung Lee, Wei Zong, **Xiangning Xue**, Shristi Shrestha, Marcela Brissova, Ryan W. Logan, Claes B. Wollheim, Massimo Trucco, Vijay K. Yechoor, David R. Sibley, Rita Bottino and Zachary Freyberg. (2021) Dopamine regulates pancreatic glucagon and insulin secretion via adrenergic and dopaminergic receptors. Translational Psychiatry. accepted.
-  * Ryan W. Logan, Angela R. Ozburn, Rachel N. Arey, Kyle D. Ketchesin, Alicia Winquist, Andrew Crain, Brian T. D. Tobe, Darius Becker-Krail, Matthew B. Jarpe, **Xiangning Xue**, Wei Zong, Zhiguang Huo, Puja K. Parekh, Xiyu Zhu, Ethan Fitzgerald, Hui Zhang, Jeffrey Oliver-Smith, Lauren M. DePoy, Mariah Hildebrand, Evan Y. Snyder, George C. Tseng, and Colleen A. McClung. (2020) Valproate reverses mania-like behaviors in mice via preferential targeting of HDAC2. Molecular Psychiatry. accepted. 
+  * Logan, R. W., **Xue, X.**, Ketchesin, K. D., Hoffman, G., Roussos, P., Tseng, G., ... & Seney, M. L. (2022). Sex differences in molecular rhythms in the human cortex. Biological psychiatry, 91(1), 152-162.
+  * **Xiangning Xue**, Wei Zong, Jill R. Glausier, Sam-Moon Kim, Micah A. Shelton, BaDoi N. Phan, Chaitanya Srinivasan, Andreas R. Pfenning, George C. Tseng, David A. Lewis, Marianne L. Seney, and Ryan W. Logan. (2021) Molecular rhythm alterations in prefrontal cortex and nucleus accumbens associated with opioid use disorder.
+  * Logan, R. W., Ozburn, A. R., Arey, R. N., Ketchesin, K. D., Winquist, A., Crain, A., Tobe B. T. D., Becker-Krail D., Jarpe M. B., **Xue X.**, ... & McClung, C. A. (2021). Valproate reverses mania-like behaviors in mice via preferential targeting of HDAC2. Molecular psychiatry, 26(8), 4066-4084.
+  * Seney, M. L., Kim, S. M., Glausier, J. R., Hildebrand, M. A., **Xue, X.**, Zong, W., ... & Logan, R. W. (2021). Transcriptional alterations in dorsolateral prefrontal cortex and nucleus accumbens implicate neuroinflammation and synaptic remodeling in opioid use disorder. Biological Psychiatry, 90(8), 550-562.
+  * Aslanoglou, D., Bertera, S., Sánchez-Soto, M., Benjamin Free, R., Lee, J., Zong, W., **Xue, X.**,... & Freyberg, Z. (2021). Dopamine regulates pancreatic glucagon and insulin secretion via adrenergic and dopaminergic receptors. Translational psychiatry, 11(1), 1-18.
   * Peng Liu, Silvia Liu, Yusi Fang, **Xiangning Xue**, Jian Zou, George Tseng, Liza Konnikova. (2020) Recent Advances in Computer-assisted Algorithms for Cell Subtype Identification of Cytometry Data. Frontiers in Cell and Developmental Biology. 8:234.
   
   

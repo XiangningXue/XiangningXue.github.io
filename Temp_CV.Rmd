@@ -1,0 +1,13 @@
+---
+title: "CV"
+author: "Xiangning Xue"
+date: "11/1/2021"
+output: html_document
+---
+
+# CV
+
+2021-10-25 Give Talk on StatsEye Meeting (?): A pipeline for circadian analysis with a focus on differential rhythmicity
+2021 Fall semester TA for Biost 2069, teach lab sessions and grade assignment. 
+
+2021 Summer Bayer intern

@@ -6,7 +6,7 @@ navbar:
     - icon: fa-envelope fa-lg
       href: mailto:<xix66@pitt.edu>
     - icon: fa-github fa-lg
-      href: http://github.com/<XiangningXue>/
+      href: http://github.com/XiangningXue/
 output:
   html_document:
     theme: lumen
