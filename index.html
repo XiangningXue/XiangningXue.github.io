@@ -11,19 +11,27 @@
 
 
 
-<title>index.utf8</title>
+<title>index.knit</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
-<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -37,11 +45,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -54,32 +57,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 
 
@@ -89,10 +67,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -109,40 +83,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 54px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h2 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h3 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h4 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h5 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
-.section h6 {
-  padding-top: 59px;
-  margin-top: -59px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -170,7 +117,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -182,7 +129,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -193,10 +140,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -208,7 +168,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -294,7 +253,7 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="http://github.com/&lt;XiangningXue&gt;/">
+  <a href="http://github.com/XiangningXue/">
     <span class="fa fa-github fa-lg"></span>
      
   </a>
@@ -304,7 +263,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -323,7 +282,7 @@ $(document).ready(function () {
 </center>
 <p><font size="4"></p>
 <p><br></p>
-<p>Hi, I am Xiangning Xue. I am currently a second-year Ph.D. student from the Biostatistics department at the University of Pittsburgh. My research adviser is George Tseng. My research interest is in statistical genomics.</p>
+<p>Hi, I am Xiangning Xue. I am currently a third-year Ph.D. student from the Biostatistics department at the University of Pittsburgh. My research adviser is George Tseng. My research interest is in statistical genomics.</p>
 <p><br></p>
 <div id="education" class="section level1">
 <h1>Education</h1>
@@ -357,9 +316,11 @@ $(document).ready(function () {
 <div id="publications" class="section level1">
 <h1>Publications</h1>
 <ul>
-<li>Ryan W. Logan, <strong>Xiangning Xue</strong>, Kyle D. Ketchesin, Gabriel Hoffman, Panos Roussos, George Tseng, Colleen A. McClung, and Marianne L Seney. (2021) Sex differences in molecular rhythms in the human cortex.</li>
-<li>Despoina Aslanoglou, Suzanne Bertera, Marta Sánchez-Soto, R. Benjamin Free, Jeongkyung Lee, Wei Zong, <strong>Xiangning Xue</strong>, Shristi Shrestha, Marcela Brissova, Ryan W. Logan, Claes B. Wollheim, Massimo Trucco, Vijay K. Yechoor, David R. Sibley, Rita Bottino and Zachary Freyberg. (2021) Dopamine regulates pancreatic glucagon and insulin secretion via adrenergic and dopaminergic receptors. Translational Psychiatry. accepted.</li>
-<li>Ryan W. Logan, Angela R. Ozburn, Rachel N. Arey, Kyle D. Ketchesin, Alicia Winquist, Andrew Crain, Brian T. D. Tobe, Darius Becker-Krail, Matthew B. Jarpe, <strong>Xiangning Xue</strong>, Wei Zong, Zhiguang Huo, Puja K. Parekh, Xiyu Zhu, Ethan Fitzgerald, Hui Zhang, Jeffrey Oliver-Smith, Lauren M. DePoy, Mariah Hildebrand, Evan Y. Snyder, George C. Tseng, and Colleen A. McClung. (2020) Valproate reverses mania-like behaviors in mice via preferential targeting of HDAC2. Molecular Psychiatry. accepted.</li>
+<li>Logan, R. W., <strong>Xue, X.</strong>, Ketchesin, K. D., Hoffman, G., Roussos, P., Tseng, G., … &amp; Seney, M. L. (2022). Sex differences in molecular rhythms in the human cortex. Biological psychiatry, 91(1), 152-162.</li>
+<li><strong>Xiangning Xue</strong>, Wei Zong, Jill R. Glausier, Sam-Moon Kim, Micah A. Shelton, BaDoi N. Phan, Chaitanya Srinivasan, Andreas R. Pfenning, George C. Tseng, David A. Lewis, Marianne L. Seney, and Ryan W. Logan. (2021) Molecular rhythm alterations in prefrontal cortex and nucleus accumbens associated with opioid use disorder.</li>
+<li>Logan, R. W., Ozburn, A. R., Arey, R. N., Ketchesin, K. D., Winquist, A., Crain, A., Tobe B. T. D., Becker-Krail D., Jarpe M. B., <strong>Xue X.</strong>, … &amp; McClung, C. A. (2021). Valproate reverses mania-like behaviors in mice via preferential targeting of HDAC2. Molecular psychiatry, 26(8), 4066-4084.</li>
+<li>Seney, M. L., Kim, S. M., Glausier, J. R., Hildebrand, M. A., <strong>Xue, X.</strong>, Zong, W., … &amp; Logan, R. W. (2021). Transcriptional alterations in dorsolateral prefrontal cortex and nucleus accumbens implicate neuroinflammation and synaptic remodeling in opioid use disorder. Biological Psychiatry, 90(8), 550-562.</li>
+<li>Aslanoglou, D., Bertera, S., Sánchez-Soto, M., Benjamin Free, R., Lee, J., Zong, W., <strong>Xue, X.</strong>,… &amp; Freyberg, Z. (2021). Dopamine regulates pancreatic glucagon and insulin secretion via adrenergic and dopaminergic receptors. Translational psychiatry, 11(1), 1-18.</li>
 <li>Peng Liu, Silvia Liu, Yusi Fang, <strong>Xiangning Xue</strong>, Jian Zou, George Tseng, Liza Konnikova. (2020) Recent Advances in Computer-assisted Algorithms for Cell Subtype Identification of Cytometry Data. Frontiers in Cell and Developmental Biology. 8:234.</li>
 </ul>
 <p></font></p>
@@ -392,7 +353,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
