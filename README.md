@@ -4,4 +4,4 @@ Xiangning Xue's personal website.
 
 Your site is published at https://xiangningxue.github.io/ 
 
-![WeChat code](IMG_0893.PNG)
+![](IMG_0893.PNG)
