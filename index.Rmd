@@ -1,6 +1,8 @@
 ---
-title: <center> <h1> <font size="8"> Xiangning Xue </font>  </h1> </center>
+#title: <center><h1>Xiangning Xue</h1></center>
 ---
+
+<center><h1><font size="7">Xiangning Xue</font></h1></center> 
 
 <br>
 
@@ -16,28 +18,38 @@ Hello and welcome to my homepage! My name is Xiangning Xue and I am a fourth-yea
 <center>![](wordcloud/research_wordcloud.png){width=450px}</center>
 <br>
 
-# Education 
+## Education 
 
-  * PhD in Biostatistics, University of Pittsburgh (2019-2023)   
+  * PhD in Biostatistics, University of Pittsburgh (2019-2024)   
   * Master of Public Health in Biostatistics, Emory University (2017-2019)  
   * Bachelor of Science in Marine Biology, Xiamen University (2012-2016)  
 
-# Research 
+## Researches 
 
-  * Circadian Models for Human Brain RNA-seq data
-  * Semi-Supervised Clustering model for Count Data 
+  * Pipeline development for differential rhythmicity analysis
+  * Bayesian modeling for meta-rhythmicity-analysis
+  * Semi-supervised learning model for count data
   
-# Collaboration 
+## Collaborations 
 
-  * Circadian analysis of multiple brain regions and comparing different cohorts 
-  * Evaluation of molecular mechanisms of treatment response in late-life depression 
-  * Meta-analysis combining first-episode psychosis studies and central insulin studies to reveal mechanisms in psychosis-related metabolic abnormalities
-  * Comparison of cell subtyping methods for Cytometry data
-  * Cytokine correlation analysis in human major depression disorder and mouse depression models 
+  * Analyses of the differential effects of psychiatric diseases on circadian rhythms in multiple brain regions. 
+  * Investigating the molecular mechanisms underlying treatment response in late-life depression.
+  * Treatment response prediction for depressed participants using baseline biomarke
+  * A meta-analysis of first-episode psychosis studies and central insulin studies to identify the mechanisms behind psychosis-related metabolic abnormalities.
+  * Comparison of cell subtyping methods for Cytometry data.
+  * Cytokine correlation analysis in depression disorder in both human and mice. 
   * Transcriptional alternation analysis of subjects with opioid use disorder 
-  * Differential methylation analysis of HeLa cells under different stress conditions 
+
+## Teaching 
+
+### Teaching Assistant at Department of Biostatistics, University of Pittsburgh
+(Aug. 2021 − Dec. 2021)
+
+  * TA for BIOST 2069 - Statistical Methods for Omics Data.
+  * Designed and teached the lab session, designed and graded student homework, offered support during office hours.
+  * Received positive feedbacks from students. 
   
-# Publications 
+## Publications ([Google Scholar](https://scholar.google.com/citations?hl=en&user=A3yfGskAAAAJ))
 
   * **Xue, X.**, Zong, W.,  Huo Z., K. Ketchesin, Scott M., Petersen K., Logan R., Seney M., McClung C., Tseng G. (2023+). DiffCircaPipeline: A framework for multifaceted characterization of differential rhythmicity. Bioinformatics (Under Revision). 
   * **Xue, X.**, Zong, W., Glausier, J. R., Kim, S. M., Shelton, M. A., Phan, B. N., ... & Logan, R. W. (2022). Molecular rhythm alterations in prefrontal cortex and nucleus accumbens associated with opioid use disorder. Translational Psychiatry, 12(1), 1-13.
